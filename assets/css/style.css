@@ -1,0 +1,91 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 0px solid black;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: transparent;
+  color: #554236;
+  border-radius: 0;
+  border-bottom: 10px solid #947A6D;
+  padding: 60px;
+}
+
+.lead {
+  color: #554236;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid #fff;
+  border-radius: 15px;
+}
+
+.hour {
+  background-color: #ebebad;
+  color: #434343;
+  border-top: 1px dashed #74673E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.past {
+  background-color: #FCFAF2;
+  color: #434343;
+}
+
+.present {
+  background-color: #FEDFE1;
+  color: #434343;
+}
+
+.future {
+  background-color: #c5eef2f4;
+  color: #434343;
+}
+
+.saveBtn {
+  border-left: 2px solid #74673E;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FAD689;
+  color: #434343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveBtn:hover {
+  background-color: #FFB11B;
+  color: #ffffff;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
