@@ -72,8 +72,6 @@ for (var hour = 9; hour < 19; hour++) {
     row.appendChild(saveBtnCol);
   
     timeBlocksContainer.appendChild(row);
-
-    timeBlocksContainer.appendChild(row);
 }
 
 // Check current time and apply related class
